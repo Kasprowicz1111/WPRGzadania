@@ -1,0 +1,27 @@
+body{
+
+    margin: 0;
+}
+h1{
+    color: silver;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+#container
+{
+    background-color: black;
+    height: 100%;
+}
+#boxA{
+    background-color:red;
+    width: 90%;
+    height:45%;
+    margin: 20px;
+}
+#boxB{
+    background-color: blue;
+    width: 90%;
+    height:45%;
+    margin: 20px;
+    
+}
