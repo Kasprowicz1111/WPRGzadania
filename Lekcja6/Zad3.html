@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: white;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .equal-width, .fixed-percentage, .flexible {
+            flex: 1;
+            text-align: center;
+            background-color: lightblue;
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid lightblue; 
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="equal-width">Element 1</div>
+        <div class="equal-width">Element 2</div>
+        <div class="equal-width">Element 3</div>
+    </div>
+
+    <div class="row">
+        <div class="fixed-percentage">Element 5</div>
+        <div class="flexible">Element 6 </div>
+    </div>
+</body>
+</html>

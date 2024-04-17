@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: white;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            border: 2px solid black;
+            padding: 100px;
+        }
+
+        .column, .box {
+            flex: 1;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+            border: 60px solid lightblue; 
+            background-color: lightblue; 
+        }
+        .separator {
+            width: 100%;
+            border-top: 1px solid white;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="column">Kolumna 1</div>
+        <div class="column">Kolumna 2</div>
+        <div class="column">Kolumna 3</div>
+    </div>
+    <hr class="separator">
+    <div class="flex-container">
+        <div class="box">Element 1</div>
+        <div class="box">Element 2</div>
+        <div class="box">Element 3</div>
+    </div>
+</body>
+</html>
