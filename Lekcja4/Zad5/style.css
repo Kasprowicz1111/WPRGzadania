@@ -1,0 +1,14 @@
+img{
+    float: left;
+    margin-right: 10px;
+    width: 70px;
+    height: 50px;
+}
+#wrapper
+{
+    text-align: center;
+}
+#el{
+    float: left;
+    margin: 0 10px;
+}

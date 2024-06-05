@@ -1,0 +1,29 @@
+.container {
+    position: relative;
+    height: 200px;
+}
+.box{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+}
+.white-block{
+    background-color: white;
+    z-index: 3;
+    top: 0;
+    left: 0;
+}
+.red-block{
+    background-color: red;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+}
+.orange-text{
+    z-index: 2;
+    position: relative;
+    text-align: center;
+    color: orange;
+    line-height: 200px;
+
+}

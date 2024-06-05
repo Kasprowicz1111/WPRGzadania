@@ -1,0 +1,32 @@
+form{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    margin: 20px;
+}
+input[type=button]{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+}
+input[type=text]{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+}
+span{
+    display: inline;
+    width:30px;
+    text-align: center;
+}
+label{
+    display:block;
+    margin-bottom: 20px;
+
+}
