@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+<body>
+
+<h1>Registration</h1>
+
+<form action="registration.php" method="POST">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" required><br>
+
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" required><br>
+
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email" required><br>
+
+    <label for="password">Password: must contain at least 6 characters, 1 uppercase letter, a number and special character</label><br>
+    <input type="text" id="password" name="password" required><br><br>
+
+    <input type="submit" name="register" value="Register">
+</form>
+
+</body>
+</html>
