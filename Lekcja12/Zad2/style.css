@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+form > * {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.container > tbody > tr > td{
+    border: 1px solid black;
+}
+.not_block > *{
+display: inline;
+}
